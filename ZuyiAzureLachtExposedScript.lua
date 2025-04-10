@@ -13,7 +13,7 @@ MakeWindow({
     KeySystem = true,
     Title = "Azure-Scripting 🔥",
     Description = "^ Azure Latch ^",
-    KeyLink = "https://link-target.net/1288118/azure-latch",
+    KeyLink = "https://raw.githubusercontent.com/TsbScriptLua/Key-fluent-ui/refs/heads/main/Key.luaAzure.lua",
     Keys = {"azurelatchpresident", "£", "-", "7", "a"},
     Notifi = {
       Notifications = true,
