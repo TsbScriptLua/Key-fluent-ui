@@ -6,7 +6,7 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Presi
 
 MakeWindow({
     Hub = {
-        Title = "Blue Lock Get Any Style.lua| Get Any Style Test",
+        Title = "Get Any Style",
         Animation = "Made By Faheem!"
     },
     Key = {
@@ -27,7 +27,7 @@ MakeWindow({
 MinimizeButton({
     Image = "rbxassetid://87183704638351696",
     Size = {60, 60},
-    Color = Color3.fromRGB(11, 10, 11),
+    Color = Color3.fromRGB(140, 9, 255),
     Corner = true,
     Stroke = true,
     StrokeColor = Color3.fromHSV(0.5, 1, 1)  -- Hue: 180° for cyan
