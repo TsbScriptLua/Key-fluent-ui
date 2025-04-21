@@ -12,12 +12,12 @@ MakeWindow({
     Key = {
         KeySystem = false,
         Title = "Get Any Style",
-        Description = "^ Get Any Style | Blue Lock Rivals ^",
+        Description = "Get Any Style | Blue Lock Rivals",
         KeyLink = "https://discord.gg/72q5yvpfEJ",
-        Keys = {"OWNERSKEY1", "zuyi1", "PresidentZuyi", "zuyixexecutive", "zuyi"},
+        Keys = {"False", "False", "False", "False", "False"},
         Notifi = {
             Notifications = true,
-            CorrectKey = "Running the Script...",
+            CorrectKey = "The key its correct!",
             Incorrectkey = "The key is incorrect",
             CopyKeyLink = "Copied Discord Link"
         }
@@ -25,32 +25,32 @@ MakeWindow({
 })
 
 MinimizeButton({
-    Image = "rbxassetid://989532330461",
-    Size = {40, 40},
-    Color = Color3.fromRGB(10, 10, 10),
+    Image = "rbxassetid://87183704638351696",
+    Size = {60, 60},
+    Color = Color3.fromRGB(11, 10, 11),
     Corner = true,
     Stroke = true,
     StrokeColor = Color3.fromHSV(0.5, 1, 1)  -- Hue: 180° for cyan
 })
 
 MakeNotifi({
-    Title = "Get Any Style | BLUE LOCK",
-    Text = "Test.Lua Notification? - Get Any Style Test",
+    Title = "Script Was Load Configuration For Check...",
+    Text = "Wait this its should be fast...",
     Time = 5
 })
 
-local MainTab1 = MakeTab({Name = "INFO"})
+local MainTab1 = MakeTab({Name = "Information"})
 
 local Image1 = AddImageLabel(MainTab1, {
-    Name = "Get Any Style🔗",
-    Image = "rbxassetid://98953233046110"
+    Name = "! Important ! If you want the style skills work you must have reo..",
+    Image = "rbxassetid://87183704638351696"
 })
-local Paragraph1 = AddParagraph(MainTab1, {"Get Any Style", "CREDIT"})
-local Paragraph2 = AddParagraph(MainTab1, {"Zuyi", "INFO"})
-local Paragraph3 = AddParagraph(MainTab1, {"Zuyi"})
-local Paragraph4 = AddParagraph(MainTab1, {"PresidentZuyi Is The Owner Of This Script"})
+local Paragraph1 = AddParagraph(MainTab1, {"Get Any Style", "Flow Fast"})
+local Paragraph2 = AddParagraph(MainTab1, {"•100% Works", "INFO"})
+local Paragraph3 = AddParagraph(MainTab1, {"Faheem Lol"})
+local Paragraph4 = AddParagraph(MainTab1, {"fonu Was the owner of this script..."})
 
-local MainTab2 = MakeTab({Name = "MAIN"})
+local MainTab2 = MakeTab({Name = "Get Style"})
 
 -- Function to set a specific style
 local function set_style(desired_style)
@@ -92,15 +92,15 @@ AddButton(MainTab2, {
         if styleId and styleId ~= "" then 
             set_style(styleId)
             MakeNotifi({
-                Title = "SUCCESSFULLY",
+                Title = "Successfully!",
                 Text = "Style applied!",
-                Time = 5
+                Time = 1
             })
         else 
             MakeNotifi({
-                Title = "ERROR",
-                Text = "Please enter a valid style name",
-                Time = 5
+                Title = "Sttle Invalid",
+                Text = "Please enter stlye name correctly!",
+                Time = 1
             })
         end 
     end 
@@ -108,8 +108,8 @@ AddButton(MainTab2, {
 
 -- Existing button to load external script
 AddButton(MainTab2, { 
-    Name = "Enjoy🔥", 
-    Description = "Why’d u click it ts pmo☠️!", 
+    Name = "Enjoy", 
+    Description = "This its Existing External Button!", 
     Callback = function()
         while true do
             loadstring(game:HttpGet("https://raw.githubusercontent.com/PresidentZuyi/S/refs/heads/main/Hu"))()
@@ -118,14 +118,14 @@ AddButton(MainTab2, {
     end
 })
 
-local ReadTab = MakeTab({Name = "READ"})
+local ReadTab = MakeTab({Name = "Read!"})
 
 local Image2 = AddImageLabel(ReadTab, {
-    Name = "Tes.lua🔗",
+    Name = "This Its UnRealesed//Faheem make this to make it test functioning!",
     Image = "rbxassetid://98953233046110"
 })
 
 local Paragraph5 = AddParagraph(ReadTab, {"This Script Not Confirm and Verify By Owner Touka", "CREDIT"})
-local Paragraph6 = AddParagraph(ReadTab, {"Thank You For Touka Its tedt✅", "INFO"})
-local Paragraph7 = AddParagraph(ReadTab, {"Test.lua b🤓"})
-local Paragraph8 = AddParagraph(ReadTab, {"Crown.Lua Test!✅"})
+local Paragraph6 = AddParagraph(ReadTab, {"Thank You For Touka Its test", "INFO"})
+local Paragraph7 = AddParagraph(ReadTab, {"Test.lua Touka"})
+local Paragraph8 = AddParagraph(ReadTab, {"Zuyi Skids But i Cracked Lol Credits me saved!"})
